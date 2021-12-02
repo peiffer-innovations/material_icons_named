@@ -1,0 +1,36 @@
+name: Flutter Publisher
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: subosito/flutter-action@v1
+        with:
+          channel: "stable"
+
+      - name: Configure
+        shell: bash
+        run: |
+          flutter packages get
+          dart ./tools/generate.dart
+
+      - name: Validate
+        uses: peiffer-innovations/actions-flutter-validate@v1.1.1
+        with:
+          flutter_package: true
+
+      - name: Publish
+        uses: peiffer-innovations/actions-pub-publish@v1.0.0
+        with:
+          credentials: ${{ secrets.CREDENTIAL_JSON }}
+
+      - uses: CDDelta/dart-version-auto-tag@v1.0.1
+        with:
+          token: ${{ secrets.REPO_TOKEN }}
