@@ -1,3 +1,8 @@
+## [1.1.0] - December 8th, 2021
+
+* Update for Flutter 2.8
+
+
 ## [1.0.1] - December 2nd, 2021
 
 * Moved http dependency to dev
