@@ -19,7 +19,7 @@ jobs:
         shell: bash
         run: |
           flutter packages get
-          dart ./tools/generate.dart
+          dart ./tool/generate.dart
 
       - name: Validate
         uses: peiffer-innovations/actions-flutter-validate@v1.1.1

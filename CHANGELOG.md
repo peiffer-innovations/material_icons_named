@@ -1,4 +1,4 @@
-## [1.1.0] - December 8th, 2021
+## [1.1.0+1] - December 8th, 2021
 
 * Update for Flutter 2.8
 
