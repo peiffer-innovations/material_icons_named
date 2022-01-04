@@ -14,12 +14,12 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"assets/NOTICES": "e38c64765829bc020082241f9f96e1c3",
+"assets/NOTICES": "a5f8593780e094f2f3a170c24ed6e7c5",
 "assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"index.html": "30f1e1f0844ef7de804b1d1f9766ae0e",
-"/": "30f1e1f0844ef7de804b1d1f9766ae0e",
+"index.html": "c31faf56ce0d13d62a1a7c59bec719bc",
+"/": "c31faf56ce0d13d62a1a7c59bec719bc",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796"
 };
 
