@@ -1,3 +1,8 @@
+## [1.1.1] - February 6th, 2022
+
+* Flutter 2.10
+
+
 ## [1.1.0+2] - January 3rd, 2022
 
 * Dart 2.15
