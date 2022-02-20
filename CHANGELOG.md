@@ -1,3 +1,8 @@
+## [1.1.2] - February 20th, 2022
+
+* Flutter 2.10.2
+
+
 ## [1.1.1] - February 6th, 2022
 
 * Flutter 2.10
