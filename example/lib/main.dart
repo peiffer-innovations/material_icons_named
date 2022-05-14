@@ -61,7 +61,7 @@ class MaterialIconGalleryHomeState extends State<MaterialIconGalleryHome> {
     return Scaffold(
       appBar: _isSearching ? _searchBar(context) : _titleBar(),
       body: Scrollbar(
-        isAlwaysShown: kIsWeb,
+        thumbVisibility: kIsWeb,
         child: GridView.builder(
           itemCount: filteredIcons.length,
           gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
