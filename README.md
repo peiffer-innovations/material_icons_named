@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [material_icons_named](#material_icons_named)
+  - [Table of Contents](#table-of-contents)
+  - [Live Example](#live-example)
+  - [Introduction](#introduction)
+  - [Usage](#usage)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # material_icons_named
 
 ## Table of Contents
