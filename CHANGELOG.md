@@ -1,6 +1,7 @@
-## [2.0.0+1] - August 9, 2022
+## [3.3.0] - September 2nd, 2022
 
-* Automated dependency updates
+* Flutter 3.3.0
+* Updated to start version matching with the Flutter version it is generated from
 
 
 ## [2.9.0] - May 14th, 2022
