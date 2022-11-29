@@ -19,7 +19,7 @@ class MaterialIconGalleryApp extends StatelessWidget {
           size: 36.0,
         ),
         textTheme: TextTheme(
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             color: Colors.black87,
             fontSize: 16.0,
           ),

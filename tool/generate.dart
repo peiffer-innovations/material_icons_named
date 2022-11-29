@@ -1,12 +1,13 @@
 // ignore_for_file: avoid_print
 
 import 'dart:io';
+
 import 'package:http/http.dart' as http;
 
 Future<void> main(List<String> args) async {
   var response = await http.get(
     Uri.parse(
-      'https://raw.githubusercontent.com/flutter/flutter/stable/packages/flutter/lib/src/material/icons.dart',
+      'https://raw.githubusercontent.com/flutter/flutter/beta/packages/flutter/lib/src/material/icons.dart',
     ),
   );
 
