@@ -41,7 +41,7 @@ jobs:
           dart ./tool/generate.dart
 
       - name: Validate
-        uses: peiffer-innovations/actions-flutter-validate@v1.1.3
+        uses: peiffer-innovations/actions-flutter-validate@v1
         with:
           flutter_package: true
 
