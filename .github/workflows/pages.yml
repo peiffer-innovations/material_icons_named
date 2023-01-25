@@ -42,11 +42,9 @@ jobs:
 
       - name: Validate
         uses: peiffer-innovations/actions-flutter-validate@v1
-        with:
-          flutter_package: true
 
       - name: Web
-        uses: peiffer-innovations/actions-flutter-deploy-pages@v1.11.0
+        uses: peiffer-innovations/actions-flutter-deploy-pages@v1
         with:
           build_mode: release
           build_number: ${{ needs.build_number.outputs.buildnumber }}
