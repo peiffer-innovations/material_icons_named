@@ -14,12 +14,12 @@ class MaterialIconGalleryApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material Icons Gallery',
       theme: ThemeData.light().copyWith(
-        iconTheme: IconThemeData(
+        iconTheme: const IconThemeData(
           color: Colors.black87,
           size: 36.0,
         ),
-        textTheme: TextTheme(
-          bodyText2: TextStyle(
+        textTheme: const TextTheme(
+          bodyMedium: TextStyle(
             color: Colors.black87,
             fontSize: 16.0,
           ),
@@ -64,7 +64,7 @@ class MaterialIconGalleryHomeState extends State<MaterialIconGalleryHome> {
         thumbVisibility: kIsWeb,
         child: GridView.builder(
           itemCount: filteredIcons.length,
-          gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+          gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 300,
           ),
           itemBuilder: (context, index) {
@@ -101,7 +101,7 @@ class MaterialIconGalleryHomeState extends State<MaterialIconGalleryHome> {
                 children: <Widget>[
                   Hero(tag: icon, child: Icon(icon.iconData)),
                   Container(
-                    padding: EdgeInsets.only(top: 16.0),
+                    padding: const EdgeInsets.only(top: 16.0),
                     child: Text(icon.title),
                   )
                 ],
@@ -115,10 +115,10 @@ class MaterialIconGalleryHomeState extends State<MaterialIconGalleryHome> {
 
   AppBar _titleBar() {
     return AppBar(
-      title: Text('Material Icons Gallery'),
+      title: const Text('Material Icons Gallery'),
       actions: [
         IconButton(
-            icon: Icon(Icons.search),
+            icon: const Icon(Icons.search),
             onPressed: () {
               ModalRoute.of(context)?.addLocalHistoryEntry(
                 LocalHistoryEntry(
@@ -142,7 +142,7 @@ class MaterialIconGalleryHomeState extends State<MaterialIconGalleryHome> {
   AppBar _searchBar(BuildContext context) {
     return AppBar(
       leading: IconButton(
-        icon: Icon(Icons.arrow_left),
+        icon: const Icon(Icons.arrow_left),
         onPressed: () {
           setState(
             () {
@@ -156,8 +156,8 @@ class MaterialIconGalleryHomeState extends State<MaterialIconGalleryHome> {
       title: TextField(
         onChanged: (text) => setState(() => _searchTerm = text),
         autofocus: true,
-        style: TextStyle(fontSize: 18.0),
-        decoration: InputDecoration(border: InputBorder.none),
+        style: const TextStyle(fontSize: 18.0),
+        decoration: const InputDecoration(border: InputBorder.none),
       ),
     );
   }
