@@ -13,7 +13,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: 'flutter'
-  http: '^0.13.5'
+  http: '^1.1.0'
 
 flutter:
   uses-material-design: true
