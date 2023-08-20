@@ -1,7 +1,7 @@
 name: 'material_icons_named'
 description: 'A mapping library that maps the Stringified material icon name to the actual Material `IconData`.'
 homepage: 'https://github.com/peiffer-innovations/material_icons_named'
-version: '3.7.0'
+version: '3.13.0'
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

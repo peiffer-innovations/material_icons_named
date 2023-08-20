@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 Future<void> main(List<String> args) async {
   final response = await http.get(
     Uri.parse(
-      'https://raw.githubusercontent.com/flutter/flutter/beta/packages/flutter/lib/src/material/icons.dart',
+      'https://raw.githubusercontent.com/flutter/flutter/master/packages/flutter/lib/src/material/icons.dart',
     ),
   );
 
