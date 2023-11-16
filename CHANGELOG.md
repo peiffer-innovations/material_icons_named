@@ -1,3 +1,8 @@
+## [3.16.0] - November 15th, 2023
+
+* Update to Flutter 3.16.0
+
+
 ## [3.13.0] - August 20th, 2023
 
 * Update to Flutter 3.13.0
