@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 
 @immutable
 class ExampleIcon implements Comparable {
-  ExampleIcon(
+  const ExampleIcon(
     this.iconData,
     this.title,
   );

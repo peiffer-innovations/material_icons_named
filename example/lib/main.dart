@@ -5,10 +5,12 @@ import 'package:material_icons_named/material_icons_named.dart';
 import 'example_icon.dart';
 
 void main() {
-  runApp(MaterialIconGalleryApp());
+  runApp(const MaterialIconGalleryApp());
 }
 
 class MaterialIconGalleryApp extends StatelessWidget {
+  const MaterialIconGalleryApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,12 +27,14 @@ class MaterialIconGalleryApp extends StatelessWidget {
           ),
         ),
       ),
-      home: MaterialIconGalleryHome(),
+      home: const MaterialIconGalleryHome(),
     );
   }
 }
 
 class MaterialIconGalleryHome extends StatefulWidget {
+  const MaterialIconGalleryHome({super.key});
+
   @override
   State<StatefulWidget> createState() => MaterialIconGalleryHomeState();
 }

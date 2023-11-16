@@ -59,7 +59,7 @@ const materialIcons = {
   print('');
   print('Generated: ${file.absolute.path}');
   print('Formatting...');
-  await Process.runSync('dart', ['format', 'lib']);
+  Process.runSync('dart', ['format', 'lib']);
 
   print('');
   print('DONE!');
