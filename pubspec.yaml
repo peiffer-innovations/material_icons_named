@@ -1,25 +1,25 @@
 name: 'material_icons_named'
 description: 'A mapping library that maps the Stringified material icon name to the actual Material `IconData`.'
 homepage: 'https://github.com/peiffer-innovations/material_icons_named'
-version: '3.16.0'
+version: '3.16.0+1'
 
-environment:
+environment: 
   sdk: '>=3.0.0 <4.0.0'
 
-dependencies:
-  flutter:
+dependencies: 
+  flutter: 
     sdk: 'flutter'
 
-dev_dependencies:
+dev_dependencies: 
   flutter_lints: '^4.0.0'
-  flutter_test:
+  flutter_test: 
     sdk: 'flutter'
-  http: '^1.1.0'
+  http: '^1.2.1'
 
-flutter:
+flutter: 
   uses-material-design: true
 
-ignore_updates:
+ignore_updates: 
   - 'archive'
   - 'async'
   - 'boolean_selector'
