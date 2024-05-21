@@ -1,3 +1,8 @@
+## [3.16.0+1] - May 21, 2024
+
+* Automated dependency updates
+
+
 ## [3.16.0] - November 15th, 2023
 
 * Update to Flutter 3.16.0
@@ -62,4 +67,3 @@
 ## [1.0.0+1] - December 1st, 2021
 
 * Initial release
-
